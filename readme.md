@@ -1,4 +1,6 @@
 ## Usage
+
+```shell
 docker run \
     -e "MYSQL_HOST=value" \
     -e "MYSQL_USER=value" \
@@ -10,3 +12,4 @@ docker run \
     -e "AWS_SECRET_KEY=value" \
     -e "PASSWORD_ZIP=value" \
     devesharp/mysql-backup-s3
+```
